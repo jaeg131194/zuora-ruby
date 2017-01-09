@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://apisandbox-api.zuora.com/rest/v1/accounts/2c92c0fa52e3f6790152f11fd4fd1fcf
+    uri: https://rest.apisandbox.zuora.com/rest/v1/accounts/2c92c0fa52e3f6790152f11fd4fd1fcf
     body:
       encoding: US-ASCII
       string: ''

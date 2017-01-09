@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://apisandbox-api.zuora.com/rest/v1/connections
+    uri: https://rest.apisandbox.zuora.com/rest/v1/connections
     body:
       encoding: UTF-8
       string: ''

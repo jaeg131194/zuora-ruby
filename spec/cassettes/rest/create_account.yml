@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://apisandbox-api.zuora.com/rest/v1/accounts
+    uri: https://rest.apisandbox.zuora.com/rest/v1/accounts
     body:
       encoding: UTF-8
       string: '{"name":"Account Name","hpmCreditCardPaymentMethodId":"2c92c0f952e407170152f11b73e65d85","currency":"USD","billCycleDay":"1","billToContact":{"firstName":"Joe","lastName":"Schmoe","country":"USA"}}'

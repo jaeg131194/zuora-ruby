@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: delete
-    uri: https://apisandbox-api.zuora.com/rest/v1/payment-methods/2c92c0f952e407170152f11b73e65d85
+    uri: https://rest.apisandbox.zuora.com/rest/v1/payment-methods/2c92c0f952e407170152f11b73e65d85
     body:
       encoding: US-ASCII
       string: ''
