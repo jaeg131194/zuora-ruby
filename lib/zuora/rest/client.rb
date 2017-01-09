@@ -17,6 +17,8 @@ module Zuora
       # @param [Boolean] sandbox
       # @return [Zuora::Client] with .connection, .put, .post
       def initialize(username, password, sandbox = false)
+        raise ArgumentError, "username and password are required" if username.nil? || password.nil?
+
         base_url = api_url sandbox
         conn = connection base_url
 
